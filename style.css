@@ -1,0 +1,24 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 50px;
+    display: flex; 
+    position: absolute;
+}
+
+.left{
+   width: 150px;
+   height: 150px;
+   background-color: blue;
+   margin: 20px;
+}
+
+.right{
+   width: 150px;
+   height: 150px;
+   background-color: orange;
+   margin: 20px;
+   position: relative;
+   left: 50px;
+}
